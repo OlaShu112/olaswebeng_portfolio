@@ -16,6 +16,7 @@ const workProjects = [
   { title: 'Ivision Play', path: '/W5.png', link:'https://ivisionplay.com/' },
   { title: 'Complaint Management System', path: '/W6.png', link:'https://cms.olaivision.com/' },
   { title: 'Hotel Management System', path: '/W7.png', link:'https://ivisionhms.com/' },
+  {title: 'Inventory Management System', path: '/W8.png', link: 'https://ims.olaivision.com/'}
 ];
 
 // Utility function to split into chunks of 4

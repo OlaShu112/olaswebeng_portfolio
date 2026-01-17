@@ -6,6 +6,7 @@ import
   HiRectangleGroup,
   HiChatBubbleBottomCenterText,
   HiEnvelope,
+  HiBriefcase, 
 } from 'react-icons/hi2';
 
 //  links
@@ -14,6 +15,12 @@ export const navData = [
   { name: 'about', path: '/about', icon: <HiUser /> },
   { name: 'services', path: '/services', icon: <HiRectangleGroup /> },
   { name: 'work', path: '/work', icon: <HiViewColumns /> },
+  {
+  
+    name: 'portfolio',              // NEW
+    path: '/portfolio',             // NEW single page for projects + resume
+    icon: <HiBriefcase />,          // NEW
+  },
   {
     name: 'testimonials',
     path: '/testimonials',
