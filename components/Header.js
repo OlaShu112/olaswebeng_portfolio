@@ -24,7 +24,7 @@ const Header = () => {
         
           </Link>
           {/* Socials */}
-          <p style={{color:"white"}}>ogundarioa@gmail.com | +447460420327</p>
+          <p style={{color:"white"}}>oogundari@olaivision.com | +447460420327</p>
           {/* <Socials/> */}
         </div>
     </div>
