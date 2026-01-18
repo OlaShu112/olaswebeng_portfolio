@@ -32,6 +32,7 @@ const PortfolioSlider = () => {
       modules={[Pagination]}
       touchMoveStopPropagation={false}
       touchReleaseOnEdges={true}
+      touchStartPreventDefault={false}
       direction="horizontal"
     >
       {portfolioItems.map((item, index) => (
