@@ -46,7 +46,7 @@ export default function Portfolio() {
         </motion.h2>
 
         <p className="mb-6 text-center">
-          Here are some of my coding projects, including C# applications and other work.
+          Here are some of my coding projects, including C# and Python applications.
         </p>
 
         <motion.div
