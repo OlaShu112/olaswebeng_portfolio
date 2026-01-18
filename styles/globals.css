@@ -17,6 +17,10 @@
 .swiper-rtl .swiper-button-prev:after {
   color: #f13024;
 }
+.swiper {
+  touch-action: pan-y;
+}
+
 .aboutText{
   font-size: 6vh;
   margin: 0% 0 0 0;
