@@ -3,7 +3,8 @@ import { motion } from "framer-motion";
 export default function Portfolio() {
   return (
     <motion.div
-      className="p-10 max-w-5xl mx-auto pt-48"
+      className="p-10 max-w-5xl mx-auto pt-48
+                min-h-screen overflow-y-auto"
       initial="hidden"
       animate="visible"
       variants={{
