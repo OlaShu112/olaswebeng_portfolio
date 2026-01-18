@@ -33,6 +33,8 @@ const PortfolioSlider = () => {
       touchMoveStopPropagation={false}
       touchReleaseOnEdges={true}
       touchStartPreventDefault={false}
+      freeMode={true} // <-- allows smooth dragging
+      className="scrollable-slider" // optional for CSS tweaks
       direction="horizontal"
     >
       {portfolioItems.map((item, index) => (

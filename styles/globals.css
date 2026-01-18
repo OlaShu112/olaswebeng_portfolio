@@ -20,6 +20,10 @@
 .swiper {
   touch-action: pan-y;
 }
+.scrollable-slider {
+  touch-action: pan-y; /* allows vertical scrolling while dragging slider */
+}
+
 
 .aboutText{
   font-size: 6vh;
@@ -98,5 +102,10 @@ font-size: 8vh;
   }
   .textarea {
     @apply w-full h-[180px] p-6  rounded-lg resize-none;
+  }
+  .scrollable-page {
+  overflow-y: auto;                  /* Allow vertical scrolling */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+  max-height: 100vh;                 /* Full viewport height */
   }
 }
