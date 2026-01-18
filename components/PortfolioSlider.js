@@ -1,6 +1,6 @@
 // components/PortfolioSlider.jsx
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper';
+import { Pagination, FreeMode} from 'swiper';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import Image from 'next/image';
@@ -29,7 +29,7 @@ const PortfolioSlider = () => {
     <Swiper
       spaceBetween={20}
       pagination={{ clickable: true }}
-      modules={[Pagination]}
+      modules={[Pagination, FreeMode]}
       touchMoveStopPropagation={false}
       touchReleaseOnEdges={true}
       touchStartPreventDefault={false}
