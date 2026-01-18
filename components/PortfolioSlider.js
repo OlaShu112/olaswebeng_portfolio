@@ -10,7 +10,7 @@ const portfolioItems = [
   {
     title: 'GitHub Projects',
     image: '/portfolio/github.png',
-    link: 'https://github.com/OlaShu112',
+    link: 'https://github.com/OlaShu112', //Github
   },
   {
     title: 'C# Applications',
