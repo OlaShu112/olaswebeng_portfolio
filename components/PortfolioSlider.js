@@ -10,11 +10,11 @@ const portfolioItems = [
   {
     title: 'GitHub Projects',
     image: '/portfolio/github.png',
-    link: 'https://github.com/OlaShu112', //Github
+    link: 'https://github.com/OlaShu112', //Githb
   },
   {
     title: 'C# Applications',
-    image: '/portfolio/csharp.png',
+    image: '/portfolio/csharp.png', //portfolio
     link: '#',
   },
   {
