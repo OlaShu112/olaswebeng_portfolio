@@ -30,6 +30,9 @@ const PortfolioSlider = () => {
       spaceBetween={20}
       pagination={{ clickable: true }}
       modules={[Pagination]}
+      touchMoveStopPropagation={false}
+      touchReleaseOnEdges={true}
+      direction="horizontal"
     >
       {portfolioItems.map((item, index) => (
         <SwiperSlide key={index}>
