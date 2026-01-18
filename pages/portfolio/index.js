@@ -51,10 +51,11 @@ export default function Portfolio() {
         </p>
 
         <motion.div
-          className="flex gap-4 flex-wrap justify-center"
-          variants={{
-            hidden: {},
-            visible: { transition: { staggerChildren: 0.15 } },
+         className="flex gap-4 overflow-x-auto pb-4"
+          style={{ scrollSnapType: "x mandatory" }}
+           variants={{
+          hidden: {},
+         visible: { transition: { staggerChildren: 0.15 } },
           }}
         >
           {/* GitHub Button */}
