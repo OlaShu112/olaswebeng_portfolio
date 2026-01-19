@@ -84,7 +84,7 @@
   .page {
     @apply w-full min-h-screen;
     overflow-x: hidden; /* prevent horizontal scroll */
-    overflow-y: auto;   /* vertical scroll allowed */
+    overflow-y: auto;   /* vertical scroll allowed. */
     width: 100vw;
     box-sizing: border-box;
   }
