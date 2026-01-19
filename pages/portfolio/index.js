@@ -51,9 +51,8 @@ export default function Portfolio() {
         </p>
 
         <motion.div
-         className="flex gap-4 overflow-x-auto pb-4"
-          style={{ scrollSnapType: "x mandatory" }}
-           variants={{
+        className="flex gap-4 overflow-x-auto pb-4 scroll-smooth snap-x snap-mandatory"
+        variants={{
           hidden: {},
          visible: { transition: { staggerChildren: 0.15 } },
           }}
@@ -63,7 +62,7 @@ export default function Portfolio() {
             href="https://github.com/OlaShu112"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-5 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+            className="px-5 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition snap-start"
             whileHover={{ scale: 1.08 }}
             whileTap={{ scale: 0.95 }}
             variants={{
@@ -77,7 +76,7 @@ export default function Portfolio() {
           {/* C# Projects Button */}
           <motion.a
             href="#csharp-projects"
-            className="px-5 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition"
+            className="px-5 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition snap-start"
             whileHover={{ scale: 1.08 }}
             whileTap={{ scale: 0.95 }}
             variants={{
