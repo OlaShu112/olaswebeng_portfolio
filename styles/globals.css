@@ -18,10 +18,13 @@
   color: #f13024;
 }
 .swiper {
-  touch-action: pan-y;
+  width: 100vw;   /* never exceed viewport */
+  max-width: 100vw;
 }
-.scrollable-slider {
-  touch-action: pan-y; /* allows vertical scrolling while dragging slider */
+
+.swiper-slide {
+  width: 100%;     /* each slide fills viewport */
+  box-sizing: border-box;
 }
 html::-webkit-scrollbar,
 body::-webkit-scrollbar {
@@ -51,9 +54,13 @@ body {
 .aboutText{
   font-size: 6vh;
   margin: 0% 0 0 0;
+  word-break: break-word;      /* added */
+  overflow-wrap: break-word;   /* added */
 }
 .heading-main{
 font-size: 8vh;
+word-break: break-word;      /* added */
+overflow-wrap: break-word;   /* added */
 }
 @media screen and (max-width: 768px) {
       .heading-main{
