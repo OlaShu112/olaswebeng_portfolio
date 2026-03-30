@@ -2,6 +2,12 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-}
 
-module.exports = nextConfig
+  // 👇 ADD THIS
+  output: 'export',
+  images: {
+    unoptimized: true
+  }
+};
+
+module.exports = nextConfig;
